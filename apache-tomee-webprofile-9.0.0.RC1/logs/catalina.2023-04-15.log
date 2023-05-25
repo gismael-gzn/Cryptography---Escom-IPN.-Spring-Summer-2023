@@ -1,0 +1,232 @@
+15-Apr-2023 01:24:27.149 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version name:   Apache Tomcat/10.0.27
+15-Apr-2023 01:24:27.150 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server built:          Oct 3 2022 14:18:31 UTC
+15-Apr-2023 01:24:27.150 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version number: 10.0.27.0
+15-Apr-2023 01:24:27.150 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Name:               Linux
+15-Apr-2023 01:24:27.150 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Version:            6.2.9-100.fc36.x86_64
+15-Apr-2023 01:24:27.150 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+15-Apr-2023 01:24:27.150 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Java Home:             /usr/lib/jvm/java-17-openjdk-17.0.6.0.10-1.fc36.x86_64
+15-Apr-2023 01:24:27.150 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Version:           17.0.6+10
+15-Apr-2023 01:24:27.150 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Red Hat, Inc.
+15-Apr-2023 01:24:27.150 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+15-Apr-2023 01:24:27.150 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+15-Apr-2023 01:24:27.170 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Apr-2023 01:24:27.170 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+15-Apr-2023 01:24:27.170 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+15-Apr-2023 01:24:27.170 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Apr-2023 01:24:27.171 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Apr-2023 01:24:27.171 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/conf/logging.properties
+15-Apr-2023 01:24:27.171 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Apr-2023 01:24:27.171 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -javaagent:/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/lib/openejb-javaagent.jar
+15-Apr-2023 01:24:27.171 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Apr-2023 01:24:27.171 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Apr-2023 01:24:27.171 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+15-Apr-2023 01:24:27.171 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dignore.endorsed.dirs=
+15-Apr-2023 01:24:27.171 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+15-Apr-2023 01:24:27.172 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+15-Apr-2023 01:24:27.172 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/temp
+15-Apr-2023 01:24:27.174 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+15-Apr-2023 01:24:27.497 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+15-Apr-2023 01:24:27.712 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+15-Apr-2023 01:24:27.804 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+15-Apr-2023 01:24:27.805 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+15-Apr-2023 01:24:27.805 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Sat Apr 15 01:24:27 CST 2023
+15-Apr-2023 01:24:27.805 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2021 (C) Apache TomEE Project, All Rights Reserved.
+15-Apr-2023 01:24:27.805 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 9.0.0.RC1
+15-Apr-2023 01:24:27.805 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20221031
+15-Apr-2023 01:24:27.805 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 10:07
+15-Apr-2023 01:24:27.805 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+15-Apr-2023 01:24:27.805 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+15-Apr-2023 01:24:27.805 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+15-Apr-2023 01:24:27.807 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@1722011b
+15-Apr-2023 01:24:27.810 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+15-Apr-2023 01:24:27.838 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is '/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/conf/tomee.xml'
+15-Apr-2023 01:24:27.878 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+15-Apr-2023 01:24:27.880 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+15-Apr-2023 01:24:27.883 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+15-Apr-2023 01:24:27.885 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+15-Apr-2023 01:24:27.932 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+15-Apr-2023 01:24:27.997 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf)
+15-Apr-2023 01:24:28.197 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+15-Apr-2023 01:24:28.228 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+15-Apr-2023 01:24:28.228 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+15-Apr-2023 01:24:28.228 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+15-Apr-2023 01:24:28.229 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+15-Apr-2023 01:24:28.229 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server initialization in [1307] milliseconds
+15-Apr-2023 01:24:28.266 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+15-Apr-2023 01:24:28.266 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+15-Apr-2023 01:24:28.287 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting service [Catalina]
+15-Apr-2023 01:24:28.287 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet engine: [Apache Tomcat/10.0.27]
+15-Apr-2023 01:24:28.301 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/yaop.war]
+15-Apr-2023 01:24:28.309 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /yaop
+15-Apr-2023 01:24:28.552 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/yaop
+15-Apr-2023 01:24:28.667 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+15-Apr-2023 01:24:28.668 INFO [main] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean yaop.Comp1580874189: Container(type=MANAGED, id=Default Managed Container)
+15-Apr-2023 01:24:28.668 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+15-Apr-2023 01:24:28.678 INFO [main] org.apache.openejb.core.managed.SimplePassivater.init Using directory /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/temp for stateful session passivation
+15-Apr-2023 01:24:28.712 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/yaop" loaded.
+15-Apr-2023 01:24:28.730 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/yaop
+15-Apr-2023 01:24:28.849 INFO [main] org.apache.openejb.assembler.classic.ValidatorBuilder.getConfig Ignoring XML Configuration for validator org.apache.bval.jsr.ConfigurationImpl
+15-Apr-2023 01:24:28.888 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/yaop)
+15-Apr-2023 01:24:29.001 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+15-Apr-2023 01:24:29.103 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/yaop.war] has finished in [801] ms
+15-Apr-2023 01:24:29.104 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/docs]
+15-Apr-2023 01:24:29.105 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /docs
+15-Apr-2023 01:24:29.126 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/docs
+15-Apr-2023 01:24:29.129 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/docs" loaded.
+15-Apr-2023 01:24:29.129 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/docs
+15-Apr-2023 01:24:29.134 INFO [main] org.apache.openejb.assembler.classic.ValidatorBuilder.getConfig Ignoring XML Configuration for validator org.apache.bval.jsr.ConfigurationImpl
+15-Apr-2023 01:24:29.136 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/docs)
+15-Apr-2023 01:24:29.150 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+15-Apr-2023 01:24:29.165 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/docs] has finished in [61] ms
+15-Apr-2023 01:24:29.165 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/host-manager]
+15-Apr-2023 01:24:29.168 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /host-manager
+15-Apr-2023 01:24:29.194 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/host-manager
+15-Apr-2023 01:24:29.199 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/host-manager" loaded.
+15-Apr-2023 01:24:29.199 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/host-manager
+15-Apr-2023 01:24:29.204 INFO [main] org.apache.openejb.assembler.classic.ValidatorBuilder.getConfig Ignoring XML Configuration for validator org.apache.bval.jsr.ConfigurationImpl
+15-Apr-2023 01:24:29.207 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/host-manager/META-INF/context.xml
+15-Apr-2023 01:24:29.207 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/host-manager)
+15-Apr-2023 01:24:29.226 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+15-Apr-2023 01:24:29.247 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/host-manager] has finished in [82] ms
+15-Apr-2023 01:24:29.247 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/ROOT]
+15-Apr-2023 01:24:29.248 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /
+15-Apr-2023 01:24:29.260 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/ROOT
+15-Apr-2023 01:24:29.264 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/ROOT" loaded.
+15-Apr-2023 01:24:29.265 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/ROOT
+15-Apr-2023 01:24:29.270 INFO [main] org.apache.openejb.assembler.classic.ValidatorBuilder.getConfig Ignoring XML Configuration for validator org.apache.bval.jsr.ConfigurationImpl
+15-Apr-2023 01:24:29.273 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/ROOT)
+15-Apr-2023 01:24:29.287 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+15-Apr-2023 01:24:29.301 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/ROOT] has finished in [54] ms
+15-Apr-2023 01:24:29.301 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/manager]
+15-Apr-2023 01:24:29.303 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /manager
+15-Apr-2023 01:24:29.318 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/manager
+15-Apr-2023 01:24:29.325 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/manager" loaded.
+15-Apr-2023 01:24:29.325 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/manager
+15-Apr-2023 01:24:29.329 INFO [main] org.apache.openejb.assembler.classic.ValidatorBuilder.getConfig Ignoring XML Configuration for validator org.apache.bval.jsr.ConfigurationImpl
+15-Apr-2023 01:24:29.332 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/manager/META-INF/context.xml
+15-Apr-2023 01:24:29.332 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/manager)
+15-Apr-2023 01:24:29.350 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+15-Apr-2023 01:24:29.368 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/manager] has finished in [66] ms
+15-Apr-2023 01:24:29.368 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/cv]
+15-Apr-2023 01:24:29.369 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /cv
+15-Apr-2023 01:24:29.895 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/cv
+15-Apr-2023 01:24:30.113 INFO [main] org.apache.openejb.config.AutoConfig.deploy Configuring PersistenceUnit(name=default)
+15-Apr-2023 01:24:30.114 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default JDBC Database, type=Resource, provider-id=Default JDBC Database)
+15-Apr-2023 01:24:30.115 INFO [main] org.apache.openejb.config.AutoConfig.logAutoCreateResource Auto-creating a Resource with id 'Default JDBC Database' of type 'DataSource' for 'default'.
+15-Apr-2023 01:24:30.115 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=Default JDBC Database)
+15-Apr-2023 01:24:30.513 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Unmanaged JDBC Database, type=Resource, provider-id=Default Unmanaged JDBC Database)
+15-Apr-2023 01:24:30.513 INFO [main] org.apache.openejb.config.AutoConfig.logAutoCreateResource Auto-creating a Resource with id 'Default Unmanaged JDBC Database' of type 'DataSource' for 'default'.
+15-Apr-2023 01:24:30.513 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=Default Unmanaged JDBC Database)
+15-Apr-2023 01:24:30.527 INFO [main] org.apache.openejb.config.AutoConfig.setJtaDataSource Adjusting PersistenceUnit default <jta-data-source> to Resource ID 'Default JDBC Database' from 'null'
+15-Apr-2023 01:24:30.528 INFO [main] org.apache.openejb.config.AutoConfig.setNonJtaDataSource Adjusting PersistenceUnit default <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+15-Apr-2023 01:24:30.534 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/cv" loaded.
+15-Apr-2023 01:24:30.534 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/cv
+15-Apr-2023 01:24:30.633 INFO [main] org.apache.openejb.assembler.classic.ValidatorBuilder.getConfig Ignoring XML Configuration for validator org.apache.bval.jsr.ConfigurationImpl
+15-Apr-2023 01:24:30.681 INFO [main] null.openjpa.Enhance You have enabled runtime enhancement, but have not specified the set of persistent classes.  OpenJPA must look for metadata for every loaded class, which might increase class load times significantly.
+15-Apr-2023 01:24:30.742 INFO [main] null.openjpa.Runtime OpenJPA dynamically loaded a validation provider.
+15-Apr-2023 01:24:30.756 INFO [main] org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory.createDelegate PersistenceUnit(name=default, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 211ms
+15-Apr-2023 01:24:30.766 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/cv)
+15-Apr-2023 01:24:30.832 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+15-Apr-2023 01:24:30.859 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Apr-2023 01:24:30.868 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/cv] has finished in [1,499] ms
+15-Apr-2023 01:24:30.871 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["http-nio-8080"]
+15-Apr-2023 01:24:30.883 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server startup in [2654] milliseconds
+15-Apr-2023 01:38:00.043 INFO [http-nio-8080-exec-5] com.azure.core.util.logging.ClientLogger.info Package versions: jackson-core=2.13.3, jackson-databind=2.13.3, jackson-dataformat-xml=2.13.3, jackson-datatype-jsr310=2.13.3, azure-core=1.31.0, Troubleshooting version conflicts: https://aka.ms/azsdk/java/dependency/troubleshoot
+15-Apr-2023 02:20:22.917 WARNING [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Invalid shutdown command [] received
+15-Apr-2023 13:17:21.829 WARNING [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Invalid shutdown command [] received
+15-Apr-2023 13:17:47.975 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+15-Apr-2023 13:17:47.979 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["http-nio-8080"]
+15-Apr-2023 13:17:48.002 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Stopping service [Catalina]
+15-Apr-2023 13:17:48.043 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/yaop
+15-Apr-2023 13:17:48.241 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/docs
+15-Apr-2023 13:17:48.292 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/host-manager
+15-Apr-2023 13:17:48.359 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/ROOT
+15-Apr-2023 13:17:48.416 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/manager
+15-Apr-2023 13:17:48.473 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/cv
+15-Apr-2023 13:17:48.617 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cv] appears to have started a thread named [reactor-http-epoll-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ io.netty.channel.epoll.Native.epollWait(Native Method)
+ io.netty.channel.epoll.Native.epollWait(Native.java:209)
+ io.netty.channel.epoll.Native.epollWait(Native.java:202)
+ io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:294)
+ io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:351)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+15-Apr-2023 13:17:48.622 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cv] appears to have started a thread named [reactor-http-epoll-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ io.netty.channel.epoll.Native.epollWait(Native Method)
+ io.netty.channel.epoll.Native.epollWait(Native.java:209)
+ io.netty.channel.epoll.Native.epollWait(Native.java:202)
+ io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:294)
+ io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:351)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+15-Apr-2023 13:17:48.628 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cv] appears to have started a thread named [reactor-http-epoll-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ io.netty.channel.epoll.Native.epollWait(Native Method)
+ io.netty.channel.epoll.Native.epollWait(Native.java:209)
+ io.netty.channel.epoll.Native.epollWait(Native.java:202)
+ io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:294)
+ io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:351)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+15-Apr-2023 13:17:48.633 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cv] appears to have started a thread named [reactor-http-epoll-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ io.netty.channel.epoll.Native.epollWait(Native Method)
+ io.netty.channel.epoll.Native.epollWait(Native.java:209)
+ io.netty.channel.epoll.Native.epollWait(Native.java:202)
+ io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:294)
+ io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:351)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+15-Apr-2023 13:17:48.634 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cv] appears to have started a thread named [reactor-http-epoll-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ io.netty.channel.epoll.Native.epollWait(Native Method)
+ io.netty.channel.epoll.Native.epollWait(Native.java:209)
+ io.netty.channel.epoll.Native.epollWait(Native.java:202)
+ io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:294)
+ io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:351)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+15-Apr-2023 13:17:48.635 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cv] appears to have started a thread named [reactor-http-epoll-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ io.netty.channel.epoll.Native.epollWait(Native Method)
+ io.netty.channel.epoll.Native.epollWait(Native.java:209)
+ io.netty.channel.epoll.Native.epollWait(Native.java:202)
+ io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:294)
+ io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:351)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+15-Apr-2023 13:17:48.636 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cv] appears to have started a thread named [reactor-http-epoll-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ io.netty.channel.epoll.Native.epollWait(Native Method)
+ io.netty.channel.epoll.Native.epollWait(Native.java:209)
+ io.netty.channel.epoll.Native.epollWait(Native.java:202)
+ io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:294)
+ io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:351)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+15-Apr-2023 13:17:48.637 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cv] appears to have started a thread named [reactor-http-epoll-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ io.netty.channel.epoll.Native.epollWait(Native Method)
+ io.netty.channel.epoll.Native.epollWait(Native.java:209)
+ io.netty.channel.epoll.Native.epollWait(Native.java:202)
+ io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:294)
+ io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:351)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+15-Apr-2023 13:17:48.638 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [cv] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@f0c1ae1]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@783dc0e7]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Apr-2023 13:17:48.638 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [cv] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@f0c1ae1]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@361f26b4]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Apr-2023 13:17:48.640 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["http-nio-8080"]
+15-Apr-2023 13:17:48.647 INFO [main] org.apache.openejb.server.SimpleServiceManager.stop Stopping server services
+15-Apr-2023 13:17:48.675 INFO [main] org.apache.openejb.assembler.classic.Assembler.doResourceDestruction Closing DataSource: Default JDBC Database
+15-Apr-2023 13:17:48.685 INFO [main] org.apache.openejb.assembler.classic.Assembler.doResourceDestruction Closing DataSource: Default Unmanaged JDBC Database
+15-Apr-2023 13:17:48.697 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["http-nio-8080"]

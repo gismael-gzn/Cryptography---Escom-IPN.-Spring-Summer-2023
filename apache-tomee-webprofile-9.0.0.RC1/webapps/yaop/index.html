@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Dinosaurs Home, Wiki and More</title>
+
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/index.js"></script>
+</head>
+
+<body id="body" translate="yes">
+
+<nav id="menu_top" class="menutop">
+	<a id="menu_anch" class="navln" href="javascript:void(0)" onclick="opennav()">
+		Menu
+	</a>
+	<input id="searchbar" type="text" placeholder="Search...">
+	<a id="home_anch" class="navln" href="index.html">Home</a>
+</nav>
+
+<div id="menu_side" class="menuside">
+	<div class="shadow" ondblclick="closenav()">
+
+		<div id="lang_select" class="deployable">
+			<a id="close_lang" href="javascript:void(0)" class="closebx" onclick="closelang()">
+				&times; Close
+			</a>
+			<object type="text/html" typemustmatch="true" id="lang_menu" data="lang.html"></object>
+		</div>
+
+		<div id="login" class="deployable">
+			<a id="close_login" href="javascript:void(0)" class="closebx" onclick="closelogin()">
+				&times; Close
+			</a>
+			<object type="text/html" typemustmatch="true" id="login_menu" data="login.html"></object>
+		</div>
+
+	</div>
+
+	<nav class="navbar">
+		<a class="activ" href="index.html">HOME</a>
+		<a class="navln" href="index.html">DINOWIKI</a>
+		<a class="navln" href="index.html">MY DINOSAURS</a>
+		<a class="navln" href="index.html">CONTACT ME</a>
+		<a class="navln" href="index.html">ABOUT</a>
+		<a href="javascript:void(0)" class="navln" onclick="openlogin()">LOGIN</a>
+		<a href="javascript:void(0)" class="navln" onclick="openlang()">LANG</a>
+		<a href="javascript:void(0)" class="navln" onclick="closenav()">
+			&times; CLOSE
+		</a>
+	</nav>
+</div>
+
+<main role="main">
+<section>
+
+	<div title="WELCOME" class="divtxt">
+		<h1>Dinosaur.lol</h1>
+	</div>
+	<hr>
+
+	<div class="divtxt">
+		<img width="100" height="100" alt="IMG">
+		<h2>Why I like dinosaurs?</h2>
+		<p>
+			HELLO
+		</p>
+		<div class="feffect"></div>
+	</div>
+	<hr>
+
+	<div class="divtxt">
+		<img width="100" height="100" alt="IMG">
+		<h2>What to do in this site?</h2>
+		<p>Nullam non semper mi. Nunc non molestie erat, vitae consectetur turpis. Phasellus imperdiet erat at dolor dapibus fermentum. Nam id tellus nisl. Phasellus malesuada egestas odio eget sodales. Nullam tempus ex vitae ultricies blandit. Nam porttitor diam quis lorem bibendum, id tincidunt erat placerat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+	</div>
+	<hr>
+
+	<div class="divtxt">
+		<img width="100" height="100" alt="IMG">
+		<h2>About</h2>
+		<p>Nullam non semper mi. Nunc non molestie erat, vitae consectetur turpis. Phasellus imperdiet erat at dolor dapibus fermentum. Nam id tellus nisl. Phasellus malesuada egestas odio eget sodales. Nullam tempus ex vitae ultricies blandit. Nam porttitor diam quis lorem bibendum, id tincidunt erat placerat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+
+		<form>
+			<div>
+				<label>Name: </label>
+				<input type="text" name="printname" id="">
+			</div>
+
+			<div>
+				<label>Email: </label>
+				<input type="email" name="email" id="">
+			</div>
+
+			<textarea id="" name="" rows="4" cols="10" style="resize: none;"></textarea>
+
+			<div">
+				<input type="submit" value="SEND">
+			</div>
+
+		</form>
+	</div>
+	<hr>
+
+	<div class="divtxt">
+		<details>
+			HELLO
+		</details>
+	</div>
+	<hr>
+
+</section>
+</main>
+	
+</body>
+</html>

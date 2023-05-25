@@ -1,0 +1,137 @@
+08-Mar-2023 12:31:56.465 INFO [Thread-23] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["http-nio-8080"]
+08-Mar-2023 12:31:56.495 INFO [Thread-23] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Stopping service [Catalina]
+08-Mar-2023 12:31:56.538 INFO [Thread-23] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/yaop
+08-Mar-2023 12:31:56.683 INFO [Thread-23] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/docs
+08-Mar-2023 12:31:56.717 INFO [Thread-23] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/host-manager
+08-Mar-2023 12:31:56.750 INFO [Thread-23] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/ROOT
+08-Mar-2023 12:31:56.795 INFO [Thread-23] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/manager
+08-Mar-2023 12:31:56.836 INFO [Thread-23] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/cv
+08-Mar-2023 12:31:56.914 WARNING [Thread-23] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cv] appears to have started a thread named [reactor-http-epoll-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ io.netty.channel.epoll.Native.epollWait(Native Method)
+ io.netty.channel.epoll.Native.epollWait(Native.java:209)
+ io.netty.channel.epoll.Native.epollWait(Native.java:202)
+ io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:294)
+ io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:351)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+08-Mar-2023 12:31:56.917 WARNING [Thread-23] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cv] appears to have started a thread named [reactor-http-epoll-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ io.netty.channel.epoll.Native.epollWait(Native Method)
+ io.netty.channel.epoll.Native.epollWait(Native.java:209)
+ io.netty.channel.epoll.Native.epollWait(Native.java:202)
+ io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:294)
+ io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:351)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+08-Mar-2023 12:31:56.921 WARNING [Thread-23] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cv] appears to have started a thread named [reactor-http-epoll-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ io.netty.channel.epoll.Native.epollWait(Native Method)
+ io.netty.channel.epoll.Native.epollWait(Native.java:209)
+ io.netty.channel.epoll.Native.epollWait(Native.java:202)
+ io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:294)
+ io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:351)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+08-Mar-2023 12:31:56.932 WARNING [Thread-23] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cv] appears to have started a thread named [reactor-http-epoll-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ io.netty.channel.epoll.Native.epollWait(Native Method)
+ io.netty.channel.epoll.Native.epollWait(Native.java:209)
+ io.netty.channel.epoll.Native.epollWait(Native.java:202)
+ io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:294)
+ io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:351)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+08-Mar-2023 12:31:56.933 WARNING [Thread-23] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cv] appears to have started a thread named [reactor-http-epoll-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ io.netty.channel.epoll.Native.epollWait(Native Method)
+ io.netty.channel.epoll.Native.epollWait(Native.java:209)
+ io.netty.channel.epoll.Native.epollWait(Native.java:202)
+ io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:294)
+ io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:351)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+08-Mar-2023 12:31:56.934 WARNING [Thread-23] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cv] appears to have started a thread named [reactor-http-epoll-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ io.netty.channel.epoll.Native.epollWait(Native Method)
+ io.netty.channel.epoll.Native.epollWait(Native.java:209)
+ io.netty.channel.epoll.Native.epollWait(Native.java:202)
+ io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:294)
+ io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:351)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+08-Mar-2023 12:31:56.934 WARNING [Thread-23] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cv] appears to have started a thread named [reactor-http-epoll-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ io.netty.channel.epoll.Native.epollWait(Native Method)
+ io.netty.channel.epoll.Native.epollWait(Native.java:209)
+ io.netty.channel.epoll.Native.epollWait(Native.java:202)
+ io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:294)
+ io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:351)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+08-Mar-2023 12:31:56.935 WARNING [Thread-23] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cv] appears to have started a thread named [reactor-http-epoll-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ io.netty.channel.epoll.Native.epollWait(Native Method)
+ io.netty.channel.epoll.Native.epollWait(Native.java:209)
+ io.netty.channel.epoll.Native.epollWait(Native.java:202)
+ io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:294)
+ io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:351)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+08-Mar-2023 12:31:56.936 WARNING [Thread-23] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cv] appears to have started a thread named [parallel-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.6/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.6/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.6/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.6/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.6/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+08-Mar-2023 12:31:56.937 WARNING [Thread-23] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cv] appears to have started a thread named [parallel-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.6/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.6/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.6/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.6/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.6/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+08-Mar-2023 12:31:56.938 WARNING [Thread-23] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cv] appears to have started a thread named [parallel-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.6/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.6/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.6/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.6/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.6/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+08-Mar-2023 12:31:56.939 SEVERE [Thread-23] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [cv] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@789b5e3c]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@5af4dea5]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+08-Mar-2023 12:31:56.939 SEVERE [Thread-23] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [cv] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@789b5e3c]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@701d9fac]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+08-Mar-2023 12:31:56.940 SEVERE [Thread-23] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [cv] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@789b5e3c]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@5bc96f83]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+08-Mar-2023 12:31:56.940 SEVERE [Thread-23] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [cv] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@789b5e3c]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@7901a078]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+08-Mar-2023 12:31:56.940 SEVERE [Thread-23] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [cv] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@789b5e3c]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@57c580b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+08-Mar-2023 12:31:56.941 INFO [Thread-23] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["http-nio-8080"]
+08-Mar-2023 12:31:56.956 INFO [Thread-23] org.apache.openejb.server.SimpleServiceManager.stop Stopping server services
+08-Mar-2023 12:31:56.973 INFO [Thread-23] org.apache.openejb.assembler.classic.Assembler.doResourceDestruction Closing DataSource: Default JDBC Database
+08-Mar-2023 12:31:56.979 INFO [Thread-23] org.apache.openejb.assembler.classic.Assembler.doResourceDestruction Closing DataSource: Default Unmanaged JDBC Database
+08-Mar-2023 12:31:56.987 INFO [Thread-23] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["http-nio-8080"]

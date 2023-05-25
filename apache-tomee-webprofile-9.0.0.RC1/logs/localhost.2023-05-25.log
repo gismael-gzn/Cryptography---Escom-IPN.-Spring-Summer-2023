@@ -1,0 +1,5 @@
+25-May-2023 00:01:49.857 SEVERE [Catalina-utility-1] jdk.internal.reflect.NativeMethodAccessorImpl.invoke For security constraints with URL pattern [/auth*] only the HTTP methods [POST] are covered. All other methods are uncovered.
+25-May-2023 00:05:58.484 SEVERE [Catalina-utility-2] jdk.internal.reflect.NativeMethodAccessorImpl.invoke For security constraints with URL pattern [/auth*] only the HTTP methods [POST] are covered. All other methods are uncovered.
+25-May-2023 00:06:35.633 SEVERE [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke For security constraints with URL pattern [/auth*] only the HTTP methods [POST] are covered. All other methods are uncovered.
+25-May-2023 00:06:59.356 SEVERE [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke For security constraints with URL pattern [/auth*] only the HTTP methods [POST] are covered. All other methods are uncovered.
+25-May-2023 00:08:07.715 SEVERE [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke For security constraints with URL pattern [/auth*] only the HTTP methods [POST] are covered. All other methods are uncovered.

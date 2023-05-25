@@ -1,0 +1,134 @@
+05-Mar-2023 00:31:37.239 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version name:   Apache Tomcat/10.0.27
+05-Mar-2023 00:31:37.239 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server built:          Oct 3 2022 14:18:31 UTC
+05-Mar-2023 00:31:37.240 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version number: 10.0.27.0
+05-Mar-2023 00:31:37.240 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Name:               Linux
+05-Mar-2023 00:31:37.240 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Version:            6.1.13-100.fc36.x86_64
+05-Mar-2023 00:31:37.240 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+05-Mar-2023 00:31:37.240 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Java Home:             /usr/lib/jvm/java-17-openjdk-17.0.6.0.10-1.fc36.x86_64
+05-Mar-2023 00:31:37.240 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Version:           17.0.6+10
+05-Mar-2023 00:31:37.240 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Red Hat, Inc.
+05-Mar-2023 00:31:37.240 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+05-Mar-2023 00:31:37.240 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+05-Mar-2023 00:31:37.258 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Mar-2023 00:31:37.259 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Mar-2023 00:31:37.259 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Mar-2023 00:31:37.259 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Mar-2023 00:31:37.259 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Mar-2023 00:31:37.259 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/conf/logging.properties
+05-Mar-2023 00:31:37.259 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Mar-2023 00:31:37.259 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -javaagent:/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/lib/openejb-javaagent.jar
+05-Mar-2023 00:31:37.259 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Mar-2023 00:31:37.260 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Mar-2023 00:31:37.260 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-Mar-2023 00:31:37.260 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dignore.endorsed.dirs=
+05-Mar-2023 00:31:37.260 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+05-Mar-2023 00:31:37.260 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+05-Mar-2023 00:31:37.260 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/temp
+05-Mar-2023 00:31:37.262 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+05-Mar-2023 00:31:37.560 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+05-Mar-2023 00:31:37.824 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+05-Mar-2023 00:31:37.913 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+05-Mar-2023 00:31:37.913 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+05-Mar-2023 00:31:37.914 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Sun Mar 05 00:31:37 CST 2023
+05-Mar-2023 00:31:37.914 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2021 (C) Apache TomEE Project, All Rights Reserved.
+05-Mar-2023 00:31:37.914 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 9.0.0.RC1
+05-Mar-2023 00:31:37.914 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20221031
+05-Mar-2023 00:31:37.914 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 10:07
+05-Mar-2023 00:31:37.914 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+05-Mar-2023 00:31:37.914 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+05-Mar-2023 00:31:37.914 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+05-Mar-2023 00:31:37.916 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@57ad2aa7
+05-Mar-2023 00:31:37.918 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+05-Mar-2023 00:31:37.948 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is '/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/conf/tomee.xml'
+05-Mar-2023 00:31:37.987 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+05-Mar-2023 00:31:37.989 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+05-Mar-2023 00:31:37.992 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+05-Mar-2023 00:31:37.996 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+05-Mar-2023 00:31:38.056 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+05-Mar-2023 00:31:38.128 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf)
+05-Mar-2023 00:31:38.348 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+05-Mar-2023 00:31:38.367 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+05-Mar-2023 00:31:38.367 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+05-Mar-2023 00:31:38.367 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+05-Mar-2023 00:31:38.367 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+05-Mar-2023 00:31:38.368 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server initialization in [1349] milliseconds
+05-Mar-2023 00:31:38.399 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+05-Mar-2023 00:31:38.399 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+05-Mar-2023 00:31:38.416 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting service [Catalina]
+05-Mar-2023 00:31:38.416 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet engine: [Apache Tomcat/10.0.27]
+05-Mar-2023 00:31:38.433 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/yaop.war]
+05-Mar-2023 00:31:38.442 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /yaop
+05-Mar-2023 00:31:38.671 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/yaop
+05-Mar-2023 00:31:38.840 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+05-Mar-2023 00:31:38.841 INFO [main] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean yaop.Comp569976699: Container(type=MANAGED, id=Default Managed Container)
+05-Mar-2023 00:31:38.842 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+05-Mar-2023 00:31:38.852 INFO [main] org.apache.openejb.core.managed.SimplePassivater.init Using directory /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/temp for stateful session passivation
+05-Mar-2023 00:31:38.883 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/yaop" loaded.
+05-Mar-2023 00:31:38.900 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/yaop
+05-Mar-2023 00:31:39.032 INFO [main] org.apache.openejb.assembler.classic.ValidatorBuilder.getConfig Ignoring XML Configuration for validator org.apache.bval.jsr.ConfigurationImpl
+05-Mar-2023 00:31:39.081 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/yaop)
+05-Mar-2023 00:31:39.206 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+05-Mar-2023 00:31:39.328 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/yaop.war] has finished in [895] ms
+05-Mar-2023 00:31:39.329 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/docs]
+05-Mar-2023 00:31:39.330 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /docs
+05-Mar-2023 00:31:39.345 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/docs
+05-Mar-2023 00:31:39.349 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/docs" loaded.
+05-Mar-2023 00:31:39.350 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/docs
+05-Mar-2023 00:31:39.354 INFO [main] org.apache.openejb.assembler.classic.ValidatorBuilder.getConfig Ignoring XML Configuration for validator org.apache.bval.jsr.ConfigurationImpl
+05-Mar-2023 00:31:39.357 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/docs)
+05-Mar-2023 00:31:39.383 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+05-Mar-2023 00:31:39.400 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/docs] has finished in [71] ms
+05-Mar-2023 00:31:39.401 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/host-manager]
+05-Mar-2023 00:31:39.403 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /host-manager
+05-Mar-2023 00:31:39.439 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/host-manager
+05-Mar-2023 00:31:39.447 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/host-manager" loaded.
+05-Mar-2023 00:31:39.447 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/host-manager
+05-Mar-2023 00:31:39.453 INFO [main] org.apache.openejb.assembler.classic.ValidatorBuilder.getConfig Ignoring XML Configuration for validator org.apache.bval.jsr.ConfigurationImpl
+05-Mar-2023 00:31:39.457 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/host-manager/META-INF/context.xml
+05-Mar-2023 00:31:39.457 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/host-manager)
+05-Mar-2023 00:31:39.479 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+05-Mar-2023 00:31:39.503 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/host-manager] has finished in [102] ms
+05-Mar-2023 00:31:39.504 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/ROOT]
+05-Mar-2023 00:31:39.504 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /
+05-Mar-2023 00:31:39.518 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/ROOT
+05-Mar-2023 00:31:39.521 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/ROOT" loaded.
+05-Mar-2023 00:31:39.522 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/ROOT
+05-Mar-2023 00:31:39.526 INFO [main] org.apache.openejb.assembler.classic.ValidatorBuilder.getConfig Ignoring XML Configuration for validator org.apache.bval.jsr.ConfigurationImpl
+05-Mar-2023 00:31:39.529 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/ROOT)
+05-Mar-2023 00:31:39.541 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+05-Mar-2023 00:31:39.555 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/ROOT] has finished in [51] ms
+05-Mar-2023 00:31:39.555 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/manager]
+05-Mar-2023 00:31:39.556 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /manager
+05-Mar-2023 00:31:39.576 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/manager
+05-Mar-2023 00:31:39.586 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/manager" loaded.
+05-Mar-2023 00:31:39.586 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/manager
+05-Mar-2023 00:31:39.592 INFO [main] org.apache.openejb.assembler.classic.ValidatorBuilder.getConfig Ignoring XML Configuration for validator org.apache.bval.jsr.ConfigurationImpl
+05-Mar-2023 00:31:39.595 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/manager/META-INF/context.xml
+05-Mar-2023 00:31:39.595 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/manager)
+05-Mar-2023 00:31:39.617 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+05-Mar-2023 00:31:39.639 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/manager] has finished in [83] ms
+05-Mar-2023 00:31:39.639 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/cv]
+05-Mar-2023 00:31:39.640 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /cv
+05-Mar-2023 00:31:40.091 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/cv
+05-Mar-2023 00:31:40.315 INFO [main] org.apache.openejb.config.AutoConfig.deploy Configuring PersistenceUnit(name=default)
+05-Mar-2023 00:31:40.317 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default JDBC Database, type=Resource, provider-id=Default JDBC Database)
+05-Mar-2023 00:31:40.318 INFO [main] org.apache.openejb.config.AutoConfig.logAutoCreateResource Auto-creating a Resource with id 'Default JDBC Database' of type 'DataSource' for 'default'.
+05-Mar-2023 00:31:40.318 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=Default JDBC Database)
+05-Mar-2023 00:31:40.731 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Unmanaged JDBC Database, type=Resource, provider-id=Default Unmanaged JDBC Database)
+05-Mar-2023 00:31:40.732 INFO [main] org.apache.openejb.config.AutoConfig.logAutoCreateResource Auto-creating a Resource with id 'Default Unmanaged JDBC Database' of type 'DataSource' for 'default'.
+05-Mar-2023 00:31:40.732 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=Default Unmanaged JDBC Database)
+05-Mar-2023 00:31:40.741 INFO [main] org.apache.openejb.config.AutoConfig.setJtaDataSource Adjusting PersistenceUnit default <jta-data-source> to Resource ID 'Default JDBC Database' from 'null'
+05-Mar-2023 00:31:40.741 INFO [main] org.apache.openejb.config.AutoConfig.setNonJtaDataSource Adjusting PersistenceUnit default <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+05-Mar-2023 00:31:40.745 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/cv" loaded.
+05-Mar-2023 00:31:40.745 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/cv
+05-Mar-2023 00:31:40.816 INFO [main] org.apache.openejb.assembler.classic.ValidatorBuilder.getConfig Ignoring XML Configuration for validator org.apache.bval.jsr.ConfigurationImpl
+05-Mar-2023 00:31:40.851 INFO [main] null.openjpa.Enhance You have enabled runtime enhancement, but have not specified the set of persistent classes.  OpenJPA must look for metadata for every loaded class, which might increase class load times significantly.
+05-Mar-2023 00:31:40.893 INFO [main] null.openjpa.Runtime OpenJPA dynamically loaded a validation provider.
+05-Mar-2023 00:31:40.903 INFO [main] org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory.createDelegate PersistenceUnit(name=default, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 150ms
+05-Mar-2023 00:31:40.914 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/cv)
+05-Mar-2023 00:31:40.966 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+05-Mar-2023 00:31:41.003 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Mar-2023 00:31:41.012 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/cv] has finished in [1,373] ms
+05-Mar-2023 00:31:41.016 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["http-nio-8080"]
+05-Mar-2023 00:31:41.029 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server startup in [2660] milliseconds
+05-Mar-2023 00:32:57.018 INFO [http-nio-8080-exec-7] com.azure.core.util.logging.ClientLogger.info Package versions: jackson-core=2.13.3, jackson-databind=2.13.3, jackson-dataformat-xml=2.13.3, jackson-datatype-jsr310=2.13.3, azure-core=1.31.0, Troubleshooting version conflicts: https://aka.ms/azsdk/java/dependency/troubleshoot

@@ -1,0 +1,73 @@
+24-May-2023 09:19:50.029 SEVERE [Catalina-utility-1] jdk.internal.reflect.NativeMethodAccessorImpl.invoke For security constraints with URL pattern [/auth*] only the HTTP methods [POST] are covered. All other methods are uncovered.
+24-May-2023 11:12:25.019 SEVERE [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke For security constraints with URL pattern [/auth*] only the HTTP methods [POST] are covered. All other methods are uncovered.
+24-May-2023 13:03:38.776 SEVERE [Catalina-utility-1] jdk.internal.reflect.NativeMethodAccessorImpl.invoke For security constraints with URL pattern [/auth*] only the HTTP methods [POST] are covered. All other methods are uncovered.
+24-May-2023 13:10:13.069 SEVERE [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke For security constraints with URL pattern [/auth*] only the HTTP methods [POST] are covered. All other methods are uncovered.
+24-May-2023 20:57:09.620 SEVERE [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke For security constraints with URL pattern [/auth*] only the HTTP methods [POST] are covered. All other methods are uncovered.
+24-May-2023 20:59:06.544 SEVERE [Catalina-utility-1] jdk.internal.reflect.NativeMethodAccessorImpl.invoke For security constraints with URL pattern [/auth*] only the HTTP methods [POST] are covered. All other methods are uncovered.
+24-May-2023 21:03:10.012 SEVERE [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke For security constraints with URL pattern [/auth*] only the HTTP methods [POST] are covered. All other methods are uncovered.
+24-May-2023 21:03:29.362 SEVERE [http-nio-8080-exec-7] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Servlet.service() for servlet [passUrlsrv] in context with path [/cv] threw exception
+	java.util.MissingFormatArgumentException: Format specifier '%s'
+		at java.base/java.util.Formatter.format(Formatter.java:2688)
+		at java.base/java.util.Formatter.format(Formatter.java:2625)
+		at java.base/java.lang.String.format(String.java:4141)
+		at com.example.cv.passUrl.doPost(passUrl.java:46)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:520)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:587)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+24-May-2023 21:08:35.260 SEVERE [Catalina-utility-1] jdk.internal.reflect.NativeMethodAccessorImpl.invoke For security constraints with URL pattern [/auth*] only the HTTP methods [POST] are covered. All other methods are uncovered.
+24-May-2023 21:13:44.225 SEVERE [Catalina-utility-2] jdk.internal.reflect.NativeMethodAccessorImpl.invoke For security constraints with URL pattern [/auth*] only the HTTP methods [POST] are covered. All other methods are uncovered.
+24-May-2023 21:16:39.042 SEVERE [http-nio-8080-exec-10] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Servlet.service() for servlet [resetpassSrv] in context with path [/cv] threw exception
+	java.lang.NullPointerException: Cannot load from object array because "long_token" is null
+		at com.example.cv.resetpassSrv.doPost(resetpassSrv.java:31)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:520)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:587)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+24-May-2023 21:31:37.234 SEVERE [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke For security constraints with URL pattern [/auth*] only the HTTP methods [POST] are covered. All other methods are uncovered.
+24-May-2023 22:31:56.507 SEVERE [Catalina-utility-2] jdk.internal.reflect.NativeMethodAccessorImpl.invoke For security constraints with URL pattern [/auth*] only the HTTP methods [POST] are covered. All other methods are uncovered.
+24-May-2023 22:38:37.613 SEVERE [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke For security constraints with URL pattern [/auth*] only the HTTP methods [POST] are covered. All other methods are uncovered.
+24-May-2023 22:51:54.335 SEVERE [Catalina-utility-1] jdk.internal.reflect.NativeMethodAccessorImpl.invoke For security constraints with URL pattern [/auth*] only the HTTP methods [POST] are covered. All other methods are uncovered.
+24-May-2023 23:41:06.424 SEVERE [Catalina-utility-2] jdk.internal.reflect.NativeMethodAccessorImpl.invoke For security constraints with URL pattern [/auth*] only the HTTP methods [POST] are covered. All other methods are uncovered.
+24-May-2023 23:41:52.171 SEVERE [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke For security constraints with URL pattern [/auth*] only the HTTP methods [POST] are covered. All other methods are uncovered.
+24-May-2023 23:53:01.479 SEVERE [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke For security constraints with URL pattern [/auth*] only the HTTP methods [POST] are covered. All other methods are uncovered.

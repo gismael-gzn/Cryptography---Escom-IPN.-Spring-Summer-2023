@@ -1,0 +1,45 @@
+/* content elements */
+
+body {
+	background-color: white;
+}
+
+main {
+	margin-top: 70px;
+	display: block;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+	z-index: 0;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3rem;
+}
+
+h2 {
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+#errimg {
+	width: 30%;
+	height: 30%;
+}
+
+a:link {
+	color: black;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+a:visited {
+	color: black;
+}
+

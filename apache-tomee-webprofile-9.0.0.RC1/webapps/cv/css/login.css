@@ -1,0 +1,68 @@
+body {
+	display: block;
+	
+	text-align: center;
+	justify-content: center;
+
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+	background-image: url("../img/orange5.png");
+	background-size: 100%;
+	/* background-attachment: fixed; */
+}
+
+
+div {
+	display: block;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin-top: 10%;
+}
+
+h1 {
+	color: rgb(255, 252, 248);
+	font-weight: 900;
+	font-size: xx-large;
+}
+
+a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-size: 1.5rem;
+	color: black;
+}
+
+input {
+	padding: 20px;
+	width: 80%;
+	margin-top: 30px;
+	font-size: xx-large;
+
+	border-radius: 11px;
+	background: linear-gradient(145deg, #e6e6e6, #ffffff);
+	box-shadow:  5px 5px 10px #666666,
+				 -5px -5px 10px #ffffff;
+}
+
+.loginbtn {
+	color: rgb(255, 231, 137);
+	width: 20%;
+	font-weight: 900;
+	font-size: x-large;
+
+	border-radius: 11px;
+	background: linear-gradient(315deg, #e68a09, #ffa40b);
+	box-shadow:  19px 19px 38px #874b05,
+				 -19px -19px 38px #ffcf0f;
+}
+
+.loginbtn:hover {
+	cursor: pointer;
+}
+
+a {
+	color: rgb(162, 0, 0);
+}

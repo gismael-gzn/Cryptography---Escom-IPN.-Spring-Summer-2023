@@ -1,0 +1,425 @@
+22-May-2023 21:53:36.902 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version name:   Apache Tomcat/10.0.27
+22-May-2023 21:53:36.904 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server built:          Oct 3 2022 14:18:31 UTC
+22-May-2023 21:53:36.904 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version number: 10.0.27.0
+22-May-2023 21:53:36.904 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Name:               Linux
+22-May-2023 21:53:36.904 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Version:            6.2.9-100.fc36.x86_64
+22-May-2023 21:53:36.904 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+22-May-2023 21:53:36.904 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Java Home:             /usr/lib/jvm/java-17-openjdk-17.0.6.0.10-1.fc36.x86_64
+22-May-2023 21:53:36.904 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Version:           17.0.6+10
+22-May-2023 21:53:36.904 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Red Hat, Inc.
+22-May-2023 21:53:36.904 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+22-May-2023 21:53:36.904 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+22-May-2023 21:53:36.931 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+22-May-2023 21:53:36.931 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+22-May-2023 21:53:36.932 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+22-May-2023 21:53:36.932 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+22-May-2023 21:53:36.932 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-May-2023 21:53:36.932 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/conf/logging.properties
+22-May-2023 21:53:36.932 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-May-2023 21:53:36.932 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -javaagent:/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/lib/openejb-javaagent.jar
+22-May-2023 21:53:36.932 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-May-2023 21:53:36.932 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-May-2023 21:53:36.932 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+22-May-2023 21:53:36.933 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dignore.endorsed.dirs=
+22-May-2023 21:53:36.933 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+22-May-2023 21:53:36.933 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+22-May-2023 21:53:36.933 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/temp
+22-May-2023 21:53:36.938 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+22-May-2023 21:53:37.335 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+22-May-2023 21:53:37.371 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server initialization in [738] milliseconds
+22-May-2023 21:53:37.433 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting service [Catalina]
+22-May-2023 21:53:37.433 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet engine: [Apache Tomcat/10.0.27]
+22-May-2023 21:53:37.456 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/yaop.war]
+22-May-2023 21:53:41.037 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 21:53:41.056 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 21:53:41.178 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 21:53:41.263 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/yaop.war] has finished in [3,806] ms
+22-May-2023 21:53:41.264 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/docs]
+22-May-2023 21:53:43.852 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 21:53:43.853 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 21:53:43.918 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 21:53:43.922 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/docs] has finished in [2,658] ms
+22-May-2023 21:53:43.923 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/host-manager]
+22-May-2023 21:53:45.842 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 21:53:45.847 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 21:53:45.909 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 21:53:45.918 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/host-manager] has finished in [1,995] ms
+22-May-2023 21:53:45.919 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/ROOT]
+22-May-2023 21:53:47.758 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 21:53:47.759 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 21:53:47.805 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 21:53:47.808 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/ROOT] has finished in [1,889] ms
+22-May-2023 21:53:47.808 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/manager]
+22-May-2023 21:53:49.641 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 21:53:49.647 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 21:53:49.696 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 21:53:49.701 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/manager] has finished in [1,893] ms
+22-May-2023 21:53:49.702 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/cv]
+22-May-2023 21:53:52.361 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Suspicious URL pattern: [/auth*] in context [/cv], see sections 12.1 and 12.2 of the Servlet specification
+22-May-2023 21:53:52.380 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 21:53:52.381 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 21:53:52.436 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 21:53:52.443 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/cv] has finished in [2,742] ms
+22-May-2023 21:53:52.448 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["http-nio-8080"]
+22-May-2023 21:53:52.462 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server startup in [15090] milliseconds
+22-May-2023 21:56:12.489 INFO [Catalina-utility-1] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Reloading context [/cv]
+22-May-2023 21:56:12.490 INFO [Catalina-utility-1] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Reloading Context with name [/cv] has started
+22-May-2023 21:56:15.043 INFO [Catalina-utility-1] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 21:56:15.044 INFO [Catalina-utility-1] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 21:56:15.106 INFO [Catalina-utility-1] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 21:56:15.110 INFO [Catalina-utility-1] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Reloading Context with name [/cv] is completed
+22-May-2023 21:57:45.635 INFO [Catalina-utility-2] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Undeploying context [/cv]
+22-May-2023 21:57:53.547 WARNING [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Invalid shutdown command [] received
+22-May-2023 21:59:07.202 WARNING [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Invalid shutdown command [] received
+22-May-2023 21:59:49.087 WARNING [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Invalid shutdown command [] received
+22-May-2023 22:01:05.571 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+22-May-2023 22:01:05.572 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["http-nio-8080"]
+22-May-2023 22:01:05.578 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Stopping service [Catalina]
+22-May-2023 22:01:05.599 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["http-nio-8080"]
+22-May-2023 22:01:05.615 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["http-nio-8080"]
+22-May-2023 22:08:26.185 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version name:   Apache Tomcat/10.0.27
+22-May-2023 22:08:26.186 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server built:          Oct 3 2022 14:18:31 UTC
+22-May-2023 22:08:26.186 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version number: 10.0.27.0
+22-May-2023 22:08:26.186 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Name:               Linux
+22-May-2023 22:08:26.186 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Version:            6.2.9-100.fc36.x86_64
+22-May-2023 22:08:26.186 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+22-May-2023 22:08:26.186 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Java Home:             /usr/lib/jvm/java-17-openjdk-17.0.6.0.10-1.fc36.x86_64
+22-May-2023 22:08:26.186 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Version:           17.0.6+10
+22-May-2023 22:08:26.186 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Red Hat, Inc.
+22-May-2023 22:08:26.186 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+22-May-2023 22:08:26.186 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+22-May-2023 22:08:26.211 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+22-May-2023 22:08:26.211 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+22-May-2023 22:08:26.211 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+22-May-2023 22:08:26.211 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+22-May-2023 22:08:26.212 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-May-2023 22:08:26.212 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/conf/logging.properties
+22-May-2023 22:08:26.212 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-May-2023 22:08:26.212 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -javaagent:/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/lib/openejb-javaagent.jar
+22-May-2023 22:08:26.212 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-May-2023 22:08:26.212 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-May-2023 22:08:26.212 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+22-May-2023 22:08:26.212 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dignore.endorsed.dirs=
+22-May-2023 22:08:26.212 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+22-May-2023 22:08:26.212 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+22-May-2023 22:08:26.212 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/temp
+22-May-2023 22:08:26.218 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+22-May-2023 22:08:26.580 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+22-May-2023 22:08:26.619 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server initialization in [703] milliseconds
+22-May-2023 22:08:26.674 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting service [Catalina]
+22-May-2023 22:08:26.674 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet engine: [Apache Tomcat/10.0.27]
+22-May-2023 22:08:26.694 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/yaop.war]
+22-May-2023 22:08:30.753 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 22:08:30.779 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 22:08:30.960 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 22:08:31.174 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/yaop.war] has finished in [4,479] ms
+22-May-2023 22:08:31.177 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/docs]
+22-May-2023 22:08:33.869 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 22:08:33.870 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 22:08:33.953 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 22:08:33.959 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/docs] has finished in [2,782] ms
+22-May-2023 22:08:33.959 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/host-manager]
+22-May-2023 22:08:36.048 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 22:08:36.053 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 22:08:36.121 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 22:08:36.132 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/host-manager] has finished in [2,173] ms
+22-May-2023 22:08:36.132 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/ROOT]
+22-May-2023 22:08:37.986 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 22:08:37.987 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 22:08:38.039 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 22:08:38.043 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/ROOT] has finished in [1,911] ms
+22-May-2023 22:08:38.043 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/manager]
+22-May-2023 22:08:40.059 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 22:08:40.068 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 22:08:40.120 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 22:08:40.125 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/manager] has finished in [2,082] ms
+22-May-2023 22:08:40.132 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["http-nio-8080"]
+22-May-2023 22:08:40.153 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server startup in [13534] milliseconds
+22-May-2023 22:11:00.190 INFO [Catalina-utility-2] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/cv]
+22-May-2023 22:11:03.442 INFO [Catalina-utility-2] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Suspicious URL pattern: [/auth*] in context [/cv], see sections 12.1 and 12.2 of the Servlet specification
+22-May-2023 22:11:03.490 INFO [Catalina-utility-2] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 22:11:03.493 INFO [Catalina-utility-2] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 22:11:03.567 INFO [Catalina-utility-2] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 22:11:03.576 INFO [Catalina-utility-2] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/cv] has finished in [3,397] ms
+22-May-2023 22:43:03.865 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+22-May-2023 22:43:03.868 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["http-nio-8080"]
+22-May-2023 22:43:03.882 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Stopping service [Catalina]
+22-May-2023 22:43:03.967 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["http-nio-8080"]
+22-May-2023 22:43:03.979 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["http-nio-8080"]
+22-May-2023 22:43:15.082 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version name:   Apache Tomcat/10.0.27
+22-May-2023 22:43:15.083 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server built:          Oct 3 2022 14:18:31 UTC
+22-May-2023 22:43:15.083 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version number: 10.0.27.0
+22-May-2023 22:43:15.083 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Name:               Linux
+22-May-2023 22:43:15.083 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Version:            6.2.9-100.fc36.x86_64
+22-May-2023 22:43:15.083 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+22-May-2023 22:43:15.083 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Java Home:             /usr/lib/jvm/java-17-openjdk-17.0.6.0.10-1.fc36.x86_64
+22-May-2023 22:43:15.083 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Version:           17.0.6+10
+22-May-2023 22:43:15.083 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Red Hat, Inc.
+22-May-2023 22:43:15.083 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+22-May-2023 22:43:15.083 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+22-May-2023 22:43:15.102 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+22-May-2023 22:43:15.102 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+22-May-2023 22:43:15.102 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+22-May-2023 22:43:15.102 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+22-May-2023 22:43:15.103 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-May-2023 22:43:15.103 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/conf/logging.properties
+22-May-2023 22:43:15.103 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-May-2023 22:43:15.103 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -javaagent:/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/lib/openejb-javaagent.jar
+22-May-2023 22:43:15.103 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-May-2023 22:43:15.103 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-May-2023 22:43:15.103 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+22-May-2023 22:43:15.103 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dignore.endorsed.dirs=
+22-May-2023 22:43:15.104 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+22-May-2023 22:43:15.104 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+22-May-2023 22:43:15.104 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/temp
+22-May-2023 22:43:15.108 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+22-May-2023 22:43:15.505 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+22-May-2023 22:43:15.540 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server initialization in [693] milliseconds
+22-May-2023 22:43:15.585 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting service [Catalina]
+22-May-2023 22:43:15.586 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet engine: [Apache Tomcat/10.0.27]
+22-May-2023 22:43:15.605 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/yaop.war]
+22-May-2023 22:43:18.888 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 22:43:18.900 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 22:43:19.027 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 22:43:19.110 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/yaop.war] has finished in [3,505] ms
+22-May-2023 22:43:19.111 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/docs]
+22-May-2023 22:43:21.228 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 22:43:21.229 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 22:43:21.309 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 22:43:21.314 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/docs] has finished in [2,203] ms
+22-May-2023 22:43:21.315 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/host-manager]
+22-May-2023 22:43:23.239 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 22:43:23.243 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 22:43:23.303 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 22:43:23.314 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/host-manager] has finished in [1,998] ms
+22-May-2023 22:43:23.314 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/ROOT]
+22-May-2023 22:43:25.279 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 22:43:25.280 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 22:43:25.330 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 22:43:25.333 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/ROOT] has finished in [2,019] ms
+22-May-2023 22:43:25.333 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/manager]
+22-May-2023 22:43:27.534 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 22:43:27.541 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 22:43:27.589 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 22:43:27.594 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/manager] has finished in [2,261] ms
+22-May-2023 22:43:27.594 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/cv]
+22-May-2023 22:43:30.221 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Suspicious URL pattern: [/auth*] in context [/cv], see sections 12.1 and 12.2 of the Servlet specification
+22-May-2023 22:43:30.243 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 22:43:30.244 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 22:43:30.300 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 22:43:30.307 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/cv] has finished in [2,713] ms
+22-May-2023 22:43:30.312 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["http-nio-8080"]
+22-May-2023 22:43:30.329 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server startup in [14788] milliseconds
+22-May-2023 23:13:48.728 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+22-May-2023 23:13:48.731 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["http-nio-8080"]
+22-May-2023 23:13:48.741 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Stopping service [Catalina]
+22-May-2023 23:13:48.833 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["http-nio-8080"]
+22-May-2023 23:13:48.855 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["http-nio-8080"]
+22-May-2023 23:14:02.167 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version name:   Apache Tomcat/10.0.27
+22-May-2023 23:14:02.168 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server built:          Oct 3 2022 14:18:31 UTC
+22-May-2023 23:14:02.168 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version number: 10.0.27.0
+22-May-2023 23:14:02.168 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Name:               Linux
+22-May-2023 23:14:02.168 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Version:            6.2.9-100.fc36.x86_64
+22-May-2023 23:14:02.168 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+22-May-2023 23:14:02.168 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Java Home:             /usr/lib/jvm/java-17-openjdk-17.0.6.0.10-1.fc36.x86_64
+22-May-2023 23:14:02.168 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Version:           17.0.6+10
+22-May-2023 23:14:02.168 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Red Hat, Inc.
+22-May-2023 23:14:02.168 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+22-May-2023 23:14:02.168 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+22-May-2023 23:14:02.186 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+22-May-2023 23:14:02.186 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+22-May-2023 23:14:02.186 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+22-May-2023 23:14:02.186 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+22-May-2023 23:14:02.187 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-May-2023 23:14:02.187 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/conf/logging.properties
+22-May-2023 23:14:02.187 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-May-2023 23:14:02.187 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -javaagent:/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/lib/openejb-javaagent.jar
+22-May-2023 23:14:02.187 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-May-2023 23:14:02.187 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-May-2023 23:14:02.187 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+22-May-2023 23:14:02.187 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dignore.endorsed.dirs=
+22-May-2023 23:14:02.187 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+22-May-2023 23:14:02.187 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+22-May-2023 23:14:02.187 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/temp
+22-May-2023 23:14:02.191 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+22-May-2023 23:14:02.543 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+22-May-2023 23:14:02.590 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server initialization in [636] milliseconds
+22-May-2023 23:14:02.645 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting service [Catalina]
+22-May-2023 23:14:02.646 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet engine: [Apache Tomcat/10.0.27]
+22-May-2023 23:14:02.670 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/yaop.war]
+22-May-2023 23:14:06.063 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 23:14:06.078 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 23:14:06.200 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 23:14:06.288 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/yaop.war] has finished in [3,617] ms
+22-May-2023 23:14:06.288 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/docs]
+22-May-2023 23:14:08.603 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 23:14:08.604 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 23:14:08.705 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 23:14:08.711 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/docs] has finished in [2,423] ms
+22-May-2023 23:14:08.711 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/host-manager]
+22-May-2023 23:14:10.899 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 23:14:10.903 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 23:14:10.970 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 23:14:10.980 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/host-manager] has finished in [2,268] ms
+22-May-2023 23:14:10.980 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/ROOT]
+22-May-2023 23:14:12.897 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 23:14:12.900 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 23:14:12.997 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 23:14:13.005 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/ROOT] has finished in [2,024] ms
+22-May-2023 23:14:13.005 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/manager]
+22-May-2023 23:14:15.095 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 23:14:15.101 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 23:14:15.152 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 23:14:15.158 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/manager] has finished in [2,153] ms
+22-May-2023 23:14:15.159 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/cv]
+22-May-2023 23:14:17.973 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Suspicious URL pattern: [/auth*] in context [/cv], see sections 12.1 and 12.2 of the Servlet specification
+22-May-2023 23:14:17.996 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 23:14:17.997 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 23:14:18.050 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 23:14:18.057 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/cv] has finished in [2,899] ms
+22-May-2023 23:14:18.061 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["http-nio-8080"]
+22-May-2023 23:14:18.079 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server startup in [15488] milliseconds
+22-May-2023 23:27:23.140 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+22-May-2023 23:27:23.146 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["http-nio-8080"]
+22-May-2023 23:27:23.158 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Stopping service [Catalina]
+22-May-2023 23:27:23.242 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["http-nio-8080"]
+22-May-2023 23:27:23.256 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["http-nio-8080"]
+22-May-2023 23:29:18.864 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version name:   Apache Tomcat/10.0.27
+22-May-2023 23:29:18.865 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server built:          Oct 3 2022 14:18:31 UTC
+22-May-2023 23:29:18.865 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version number: 10.0.27.0
+22-May-2023 23:29:18.865 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Name:               Linux
+22-May-2023 23:29:18.865 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Version:            6.2.9-100.fc36.x86_64
+22-May-2023 23:29:18.865 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+22-May-2023 23:29:18.866 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Java Home:             /usr/lib/jvm/java-17-openjdk-17.0.6.0.10-1.fc36.x86_64
+22-May-2023 23:29:18.866 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Version:           17.0.6+10
+22-May-2023 23:29:18.866 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Red Hat, Inc.
+22-May-2023 23:29:18.866 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+22-May-2023 23:29:18.866 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+22-May-2023 23:29:18.883 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+22-May-2023 23:29:18.883 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+22-May-2023 23:29:18.884 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+22-May-2023 23:29:18.884 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+22-May-2023 23:29:18.884 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-May-2023 23:29:18.884 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/conf/logging.properties
+22-May-2023 23:29:18.884 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-May-2023 23:29:18.884 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -javaagent:/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/lib/openejb-javaagent.jar
+22-May-2023 23:29:18.884 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-May-2023 23:29:18.884 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-May-2023 23:29:18.884 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+22-May-2023 23:29:18.885 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dignore.endorsed.dirs=
+22-May-2023 23:29:18.885 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+22-May-2023 23:29:18.885 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+22-May-2023 23:29:18.885 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/temp
+22-May-2023 23:29:18.888 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+22-May-2023 23:29:19.373 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+22-May-2023 23:29:19.447 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server initialization in [808] milliseconds
+22-May-2023 23:29:19.543 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting service [Catalina]
+22-May-2023 23:29:19.544 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet engine: [Apache Tomcat/10.0.27]
+22-May-2023 23:29:19.603 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/yaop.war]
+22-May-2023 23:29:25.178 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 23:29:25.240 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 23:29:25.561 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 23:29:25.873 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/yaop.war] has finished in [6,268] ms
+22-May-2023 23:29:25.881 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/docs]
+22-May-2023 23:29:28.931 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 23:29:28.932 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 23:29:29.010 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 23:29:29.014 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/docs] has finished in [3,133] ms
+22-May-2023 23:29:29.014 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/host-manager]
+22-May-2023 23:29:31.068 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 23:29:31.073 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 23:29:31.156 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 23:29:31.166 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/host-manager] has finished in [2,151] ms
+22-May-2023 23:29:31.166 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/ROOT]
+22-May-2023 23:29:33.505 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 23:29:33.507 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 23:29:33.562 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 23:29:33.565 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/ROOT] has finished in [2,399] ms
+22-May-2023 23:29:33.566 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/manager]
+22-May-2023 23:29:35.607 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 23:29:35.613 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 23:29:35.674 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 23:29:35.679 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/manager] has finished in [2,113] ms
+22-May-2023 23:29:35.679 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/cv]
+22-May-2023 23:29:37.693 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 23:29:37.694 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 23:29:37.752 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 23:29:37.756 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/cv] has finished in [2,077] ms
+22-May-2023 23:29:37.768 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["http-nio-8080"]
+22-May-2023 23:29:37.788 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server startup in [18339] milliseconds
+22-May-2023 23:29:59.838 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+22-May-2023 23:29:59.838 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["http-nio-8080"]
+22-May-2023 23:29:59.841 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Stopping service [Catalina]
+22-May-2023 23:29:59.876 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["http-nio-8080"]
+22-May-2023 23:29:59.884 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["http-nio-8080"]
+22-May-2023 23:32:22.032 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version name:   Apache Tomcat/10.0.27
+22-May-2023 23:32:22.033 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server built:          Oct 3 2022 14:18:31 UTC
+22-May-2023 23:32:22.033 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version number: 10.0.27.0
+22-May-2023 23:32:22.034 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Name:               Linux
+22-May-2023 23:32:22.034 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Version:            6.2.9-100.fc36.x86_64
+22-May-2023 23:32:22.034 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+22-May-2023 23:32:22.034 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Java Home:             /usr/lib/jvm/java-17-openjdk-17.0.6.0.10-1.fc36.x86_64
+22-May-2023 23:32:22.034 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Version:           17.0.6+10
+22-May-2023 23:32:22.034 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Red Hat, Inc.
+22-May-2023 23:32:22.034 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+22-May-2023 23:32:22.034 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         /home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+22-May-2023 23:32:22.053 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+22-May-2023 23:32:22.053 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+22-May-2023 23:32:22.053 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+22-May-2023 23:32:22.053 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+22-May-2023 23:32:22.053 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-May-2023 23:32:22.053 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/conf/logging.properties
+22-May-2023 23:32:22.053 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-May-2023 23:32:22.054 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -javaagent:/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/lib/openejb-javaagent.jar
+22-May-2023 23:32:22.054 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-May-2023 23:32:22.054 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-May-2023 23:32:22.054 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+22-May-2023 23:32:22.054 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dignore.endorsed.dirs=
+22-May-2023 23:32:22.054 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+22-May-2023 23:32:22.054 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1
+22-May-2023 23:32:22.054 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/temp
+22-May-2023 23:32:22.057 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+22-May-2023 23:32:22.477 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+22-May-2023 23:32:22.540 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server initialization in [753] milliseconds
+22-May-2023 23:32:22.621 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting service [Catalina]
+22-May-2023 23:32:22.621 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet engine: [Apache Tomcat/10.0.27]
+22-May-2023 23:32:22.645 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/yaop.war]
+22-May-2023 23:32:26.243 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 23:32:26.259 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 23:32:26.402 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 23:32:26.499 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/yaop.war] has finished in [3,853] ms
+22-May-2023 23:32:26.499 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/docs]
+22-May-2023 23:32:28.840 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 23:32:28.841 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 23:32:28.913 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 23:32:28.917 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/docs] has finished in [2,418] ms
+22-May-2023 23:32:28.918 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/host-manager]
+22-May-2023 23:32:31.326 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 23:32:31.330 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 23:32:31.439 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 23:32:31.464 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/host-manager] has finished in [2,547] ms
+22-May-2023 23:32:31.465 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/ROOT]
+22-May-2023 23:32:33.621 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 23:32:33.622 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 23:32:33.673 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 23:32:33.677 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/ROOT] has finished in [2,212] ms
+22-May-2023 23:32:33.677 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/manager]
+22-May-2023 23:32:35.493 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 23:32:35.499 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 23:32:35.548 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 23:32:35.554 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/manager] has finished in [1,877] ms
+22-May-2023 23:32:35.554 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/cv]
+22-May-2023 23:32:38.418 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Suspicious URL pattern: [/auth*] in context [/cv], see sections 12.1 and 12.2 of the Servlet specification
+22-May-2023 23:32:38.442 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 23:32:38.444 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 23:32:38.515 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 23:32:38.526 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [/home/gismael/Mine/apache-tomee-webprofile-9.0.0.RC1/webapps/cv] has finished in [2,971] ms
+22-May-2023 23:32:38.537 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["http-nio-8080"]
+22-May-2023 23:32:38.631 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server startup in [16090] milliseconds
+22-May-2023 23:33:38.566 INFO [Catalina-utility-1] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Reloading context [/cv]
+22-May-2023 23:33:38.567 INFO [Catalina-utility-1] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Reloading Context with name [/cv] has started
+22-May-2023 23:33:42.064 INFO [Catalina-utility-1] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Suspicious URL pattern: [/auth*] in context [/cv], see sections 12.1 and 12.2 of the Servlet specification
+22-May-2023 23:33:42.115 INFO [Catalina-utility-1] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+22-May-2023 23:33:42.116 INFO [Catalina-utility-1] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+22-May-2023 23:33:42.185 INFO [Catalina-utility-1] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2023 23:33:42.191 INFO [Catalina-utility-1] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Reloading Context with name [/cv] is completed

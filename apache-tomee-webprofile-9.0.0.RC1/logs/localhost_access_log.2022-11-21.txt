@@ -1,0 +1,9 @@
+127.0.0.1 - - [21/Nov/2022:20:33:52 -0600] "GET /yaop/ HTTP/1.1" 304 -
+127.0.0.1 - - [21/Nov/2022:20:33:52 -0600] "GET /yaop/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Nov/2022:20:33:52 -0600] "GET /yaop/js/index.js HTTP/1.1" 304 -
+127.0.0.1 - - [21/Nov/2022:20:33:52 -0600] "GET /yaop/login.html HTTP/1.1" 304 -
+127.0.0.1 - - [21/Nov/2022:20:33:52 -0600] "GET /yaop/lang.html HTTP/1.1" 304 -
+127.0.0.1 - - [21/Nov/2022:20:33:52 -0600] "GET /yaop/css/login.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Nov/2022:20:33:52 -0600] "GET /yaop/css/lang.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Nov/2022:20:34:45 -0600] "GET /yaop/joinin.html HTTP/1.1" 200 2401
+127.0.0.1 - - [21/Nov/2022:20:34:45 -0600] "POST /yaop/hello HTTP/1.1" 200 122
